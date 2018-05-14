@@ -4,12 +4,14 @@
 webpack 是一个 JS 代码模块化的打包工具，藉由它强大的扩展能力，随着社区的发展，逐渐成为一个功能完善的构建工具.
 ###安装和使用
 我们使用 npm 或者 yarn 来安装 webpack，可以作为一个全局的命令来使用：
-    npm install webpack webpack-cli -g 
-    # 或者
-    yarn global add webpack webpack-cli
+```javascript
+npm install webpack webpack-cli -g 
+# 或者
+yarn global add webpack webpack-cli
 
-    # 然后就可以全局执行命令了
-    webpack --help
+# 然后就可以全局执行命令了
+webpack --help
+```
 [webpack-cli](https://github.com/webpack/webpack-cli)是使用 webpack 的命令行工具，在 4.x 版本之后不再作为 webpack 的依赖了，我们使用时需要单独安装这个工具。
 在项目中，我们更多地会把 webpack 作为项目的开发依赖来安装使用，这样可以指定项目中使用的 webpack 版本，更加方便多人协同开发：
 
